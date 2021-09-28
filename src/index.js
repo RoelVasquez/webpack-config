@@ -1,3 +1,5 @@
-import './styles/index.scss';
-console.log('test');
-console.log('test 3');
+import { render } from 'react-dom';
+
+import App from './components/App';
+
+render(<App />, document.getElementById('root'));
